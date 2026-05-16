@@ -1,0 +1,38 @@
+{
+  "name": "manga-forge",
+  "displayName": "MangaForge",
+  "description": "Complete development empowerment suite for manga reader applications: automated workflows, intelligent design system, gamification framework, and continuity tracking.",
+  "description_zh": "漫画阅读器完整开发赋能套件：自动化工作流、智能设计系统、游戏化框架、连续性追踪。",
+  "version": "1.0.0",
+  "author": "MangaForge Team",
+  "license": "MIT",
+  "homepage": "https://manga-forge.github.io",
+  "repository": "https://github.com/manga-forge/manga-forge",
+  "keywords": [
+    "manga",
+    "reader",
+    "vue",
+    "pwa",
+    "capacitor",
+    "ui-design",
+    "gamification",
+    "reading-tracker",
+    "development-workflow"
+  ],
+  "platforms": [
+    "claude"
+  ],
+  "install": "Copy .claude folder to project root",
+  "capabilities": [
+    "workflow-automation",
+    "design-system",
+    "gamification",
+    "continuity-tracking",
+    "testing",
+    "code-review"
+  ],
+  "languages": {
+    "en": "English documentation",
+    "zh": "中文文档"
+  }
+}
