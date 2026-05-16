@@ -1,12 +1,12 @@
 # MangaForge / 漫画锻造工坊
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-green.svg)](https://github.com/manga-forge/manga-forge)
-[![For: Vue 3 + Vite](https://img.shields.io/badge/For-Vue%203%20%2B%20Vite-brightgreen.svg)](https://vuejs.org)
+[![许可证: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![版本: 1.0.0](https://img.shields.io/badge/Version-1.0.0-green.svg)](https://github.com/manga-forge/manga-forge)
+[![面向: Vue 3 + Vite](https://img.shields.io/badge/For-Vue%203%20%2B%20Vite-brightgreen.svg)](https://vuejs.org)
 
 > 为现代漫画阅读器打造的完整开发赋能系统
 
-## 🌟 核心特性 / Core Features
+## 🌟 核心特性
 
 | 模块 | 能力 | 适用场景 |
 |------|------|----------|
@@ -16,21 +16,21 @@
 | **质量保证** | 书源安全、测试策略、发布清单 | 质量控制和发布 |
 | **自动化工作流** | TDD、代码审查、调试流程 | 高效开发生命周期 |
 
-## 🚀 快速开始 / Quick Start
+## 🚀 快速开始
 
-### 安装 / Installation
+### 安装
 
 ```bash
-# 1. 复制配置到项目根目录 / Copy config to project root
+# 1. 复制配置到项目根目录
 cp -r D:/MangaForge/.claude ./
 
-# 2. 重启 Claude Code 会话 / Restart Claude Code session
+# 2. 重启 Claude Code 会话
 
-# 3. 验证安装 / Verify installation
+# 3. 验证安装
 /skill-test
 ```
 
-### 使用示例 / Usage Examples
+### 使用示例
 
 ```
 为漫画阅读器生成深色主题设计系统，适合长时间阅读
@@ -43,9 +43,9 @@ cp -r D:/MangaForge/.claude ./
 → 触发连续性追踪和规划流程
 ```
 
-## 📦 包含内容 / What's Inside
+## 📦 包含内容
 
-### 技能组 / Skills (6)
+### 技能组 (6个)
 
 ```
 manga-brainstorming    # 功能规划与需求分析
@@ -56,7 +56,7 @@ manga-qa              # 质量保证策略
 manga-release         # 多平台发布流程
 ```
 
-### 智能代理 / Agents (4)
+### 智能代理 (4个)
 
 ```
 creative-director     # 创意总监 - UI/UX设计与游戏化策略
@@ -65,23 +65,23 @@ qa-specialist         # QA专家 - 测试与发布认证
 ui-programmer         # UI程序员 - Vue 3组件实现
 ```
 
-### 自动化 / Automation (5 hooks + 3 rules)
+### 自动化 (5个钩子 + 3个规则)
 
 ```
-Hooks:
+钩子:
 - session-start.sh      # 会话开始显示项目状态
 - session-stop.sh       # 会话结束归档进度
 - validate-commit.sh    # 提交前代码质量检查
 - validate-assets.sh    # 设计系统文件验证
 - validate-skill-change.sh  # 技能修改提醒
 
-Rules:
+规则:
 - sandbox-security         # 书源沙箱安全规范
 - vue-components           # Vue 3 组件最佳实践
 - gamification-implementation  # 游戏化实现规范
 ```
 
-### 设计系统 / Design System
+### 设计系统
 
 预配置的深色主题设计规范：
 
@@ -94,7 +94,7 @@ Rules:
 
 完整规范见 `design-system/MASTER.md`
 
-## 📚 文档 / Documentation
+## 📚 文档中心
 
 | 文档 | 语言 | 用途 |
 |------|------|------|
@@ -104,9 +104,9 @@ Rules:
 | [docs/ARCHITECTURE](docs/ARCHITECTURE.md) | 中/英 | 系统架构详解 |
 | [SUMMARY](SUMMARY.md) | 中/英 | 功能总结与集成说明 |
 
-## 🎯 典型工作流 / Typical Workflow
+## 🎯 典型工作流
 
-### 新功能开发 / New Feature
+### 新功能开发
 
 ```
 1. 规划阶段 - 用户描述需求
@@ -130,7 +130,7 @@ Rules:
    → 三平台发布流程
 ```
 
-## 🔧 技术栈 / Tech Stack
+## 🔧 技术栈
 
 - **前端**: Vue 3 + TypeScript + Vite 6
 - **状态**: Pinia
@@ -140,7 +140,7 @@ Rules:
 - **数据**: IndexedDB (Dexie.js)
 - **样式**: 预配置 Tailwind CSS (推荐)
 
-## 📄 许可证 / License
+## 📄 许可证
 
 MIT License - 自由使用、修改、分发。
 
